@@ -1,0 +1,13 @@
+.navbar--active-content {
+    color: orange !important;
+}
+.btn.btn-outline-primary {
+    color: initial; /* Resetting the initial color */
+    border-color: initial; /* Resetting the initial border color */
+}
+
+.btn.btn-outline-primary:hover {
+    color: white; /* Change text color to orange on hover */
+    border-color: orange; /* Change border color to orange on hover */
+    background-color: orange;
+}

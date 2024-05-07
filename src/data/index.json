@@ -1,0 +1,71 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/frontend.png",
+      "title": "Front-End",
+      "description": "Frontend skills include intermediate HTML5 and CSS for design, advanced Angular for dynamic applications, and beginner-level JavaScript and React.js for ongoing learning and application."
+    },
+    {
+      "id": "2",
+      "src": "./img/backend.png",
+      "title": "Back-End",
+      "description": "Backend expertise spans intermediate FastAPI and Node.jS, Express. Advanced proficiency in RESTful API Design ensures efficient architecture. Database skills include intermediate PostgreSQL, MongoDB experience."
+    },
+    {
+      "id": "3",
+      "src": "./img/programming.png",
+      "title": "Programming Expertise",
+      "description": "Proficient in object-oriented programming and program structures, with advanced expertise in its concepts and application across various programming languages such as Python and Java."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/recipe-hub.png",
+      "title": "Recipe Hub MERN stack project",
+      "description": "Recipe Hub is a comprehensive digital platform designed to facilitate easy management, sharing, and discovery of recipes. It catifies to three distinct roles: Admin, Chef, and General User, each with tailored functionalities and interfaces to enhance their culinary and management experiences.",
+      "link": "https://github.com/Atharva-Waranashiwar-Coding/RecipeHub"
+    },
+    {
+      "id": "2",
+      "src": "./img/real-estate-management.png",
+      "title": "Real Estate Management JAVA - Swing Application",
+      "description": "The Real Estate Management System revolutionizes property management through automation and advanced communication, fostering efficiency and transparency. It promises to reshape industry practices, enhancing compliance and streamlining operations.",
+      "link": "https://github.com/Atharva-Waranashiwar-Coding/RealEstateManagement"
+    },
+    {
+      "id": "3",
+      "src": "./img/drone.png",
+      "title": "IMU controlled quadcopter drone for object detection",
+      "description": "Crafted an innovative IMU-controlled quadcopter, integrating KK 2.1 flight controller and MPU6050 IMU for precise movement. Enhanced with object detection capabilities via RPi camera and TFLite algorithm, delivering real-time data visualization on the remote control system.",
+      "link": "https://drive.google.com/file/d/10ZEU_FLyQz62-98pACKqL-_waO0IVsVC/view?usp=drive_link"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}

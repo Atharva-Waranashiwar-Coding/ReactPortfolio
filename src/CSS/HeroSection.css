@@ -1,0 +1,17 @@
+.orange-theme {
+    color: orange !important;
+}
+  
+.btn.btn-primary {
+    color: Black; /* Change text color to orange on hover */
+    border-color: Black; /* Change border color to orange on hover */
+    background-color: aliceblue;
+}
+
+.btn.btn-primary:hover {
+    color: white; /* Change text color to orange on hover */
+    border-color: orange; /* Change border color to orange on hover */
+    background-color: orange;
+}
+
+  
