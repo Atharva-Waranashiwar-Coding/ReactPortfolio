@@ -311,14 +311,108 @@ h2 {
 }
 /* Skills Style Ends */
 
-/* About Us */
+/* About ME */
 .about--section {
   display: block;
   padding: 40px 85.3px;
   align-items: center;
   gap: 111.6px;
 }
-/* About Us Ends */
+/* About ME Ends */
+
+/* Work Experience Section Style */
+.work-experience-section {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 85.33px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.work-experience-card {
+  display: flex;
+  padding: 32px;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+  border-radius: 10.6px;
+  background: var(--secondary);
+  min-width: 300px;
+}
+
+.work-experience-logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  gap: 13.3px;
+  border-radius: 10.6px;
+  background: #fff;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  height: fit-content
+}
+.work-experience-img{
+  height:150px
+}
+
+.company-details {
+  flex-grow: 1;
+}
+
+.company-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.position {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.duration {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.responsibilities {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.responsibility-item {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+/* Alternate styling for even numbered work experience cards */
+.work-experience-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.work-experience-logo:nth-child(even) {
+  order: 2;
+}
+
+.company-details:nth-child(even) {
+  order: 1;
+  text-align: right;
+}
+
+.duration:nth-child(even) {
+  text-align: right;
+}
+
+.responsibilities:nth-child(even) {
+  text-align: right;
+}
+
+/* Work experience ends */
+
 
 /* My Portfolio Starts */
 .portfolio--section {
@@ -518,7 +612,7 @@ input[type="checkbox"] {
   .portfolio--container-box,
   .footer--link--container,
   .footer--items > ul,
-  .footer--content--container {
+  .footer--content--container,.work-experience-card {
     display: flex;
     flex-direction: column;
   }

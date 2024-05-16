@@ -67,5 +67,18 @@
       "author_name": "Kathryn Murphy",
       "author_designation": "McDonald's"
     }
-  ]
+  ],
+  "workExperience": [
+    {
+      "companyName": "Persistent Systems",
+      "companyLogo": "./img/persistent-logo.png",
+      "position": "Software Engineer",
+      "duration": "August 2021 - September 2023",
+      "responsibilities": [
+        "Spearheaded the development of a dynamic laboratory data directory web application utilizing Angular and FastAPI, showcasing adeptness in both server-side and client-side architecture.",
+        "Leveraged SQL Alchemy to orchestrate efficient ORM interactions between PostgreSQL databases and FastAPI, ensuring robust data management within the project."
+
+      ]
+    }
+  ]  
 }

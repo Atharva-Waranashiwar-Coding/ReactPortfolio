@@ -3,14 +3,16 @@ import ContactMe from "../ContactMe";
 import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
+import WorkExperience from "../WorkExperience";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
-      <MySkills />
       <AboutMe />
+      <WorkExperience/>
       <MyPortfolio />
+      <MySkills />
       <ContactMe />
     </>
   );

@@ -79,38 +79,23 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-40}
-              duration={50}
+              offset={-20}
+              duration={500}
               to="heroSection"
               className="navbar--content"
             >
               Home
             </Link>
           </li>
-          
+
           <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-40}
-              duration={50}
-              to="mySkills"
-              className="navbar--content"
-            >
-              My Skills
-            </Link>
-          </li>
-          
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-40}
-              duration={50}
+              offset={-20}
+              duration={500}
               to="AboutMe"
               className="navbar--content"
             >
@@ -124,12 +109,42 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-40}
-              duration={50}
+              offset={-20}
+              duration={500}
+              to="workExperience"
+              className="navbar--content"
+            >
+              Work Experience
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-20}
+              duration={500}
               to="MyPortfolio"
               className="navbar--content"
             >
               Portfolio
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-20}
+              duration={500}
+              to="mySkills"
+              className="navbar--content"
+            >
+              My Skills
             </Link>
           </li>
         </ul>
