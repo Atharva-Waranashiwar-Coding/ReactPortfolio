@@ -700,7 +700,6 @@ input[type="checkbox"] {
   }
   .navbar--items {
     position: absolute;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255);
@@ -727,6 +726,10 @@ input[type="checkbox"] {
   }
   .navbar--items.active {
     top: 30px;
+    display: flex;
+  }
+  .navbar--items {
+    display:none;
   }
   .nav__hamburger.active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
