@@ -2,21 +2,33 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/frontend.png",
-      "title": "Front-End",
-      "description": "Frontend skills include intermediate HTML5 and CSS for design, advanced Angular for dynamic applications, and beginner-level JavaScript and React.js for ongoing learning and application."
+      "src": "./img/programming.png",
+      "title": "Programming",
+      "description": "Python, Java, JavaScript"
     },
     {
       "id": "2",
-      "src": "./img/backend.png",
-      "title": "Back-End",
-      "description": "Backend expertise spans intermediate FastAPI and Node.jS, Express. Advanced proficiency in RESTful API Design ensures efficient architecture. Database skills include intermediate PostgreSQL, MongoDB experience."
+      "src": "./img/frontend.png",
+      "title": "Front-End",
+      "description": "React.js, Angular, HTML, CSS"
     },
     {
       "id": "3",
-      "src": "./img/programming.png",
-      "title": "Programming Expertise",
-      "description": "Proficient in object-oriented programming and program structures, with advanced expertise in its concepts and application across various programming languages such as Python and Java."
+      "src": "./img/backend.png",
+      "title": "Back-End",
+      "description": "FastAPI, Node.js, Express"
+    },
+    {
+      "id": "4",
+      "src": "./img/database.png",
+      "title": "Database",
+      "description": "PostgreSQL, MongoDB, SQLAlchemy"
+    },
+    {
+      "id": "5",
+      "src": "./img/tools.png",
+      "title": "Tools",
+      "description": "VS Code, Version Control (Git)"
     }
   ],
   "portfolio": [
